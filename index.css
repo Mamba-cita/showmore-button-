@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+    background: #252424;
+    color: #fff;
+}
+
+.text{
+    font-size: 1.5rem;
+}
+.moretext{
+    display: none;
+
+}
+
+.btn2{
+    background: #fff;
+    color: #252424;
+    padding: 10px 60px;
+    border: 1px solid #252424;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.show-more .moretext{
+    display: inline;
+  
+}
+.show-more .dots{
+    display: none;
+}
